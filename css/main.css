@@ -1,4 +1,5 @@
 @import url(./fonts.css);
+
 :root {
     --ch: #282828;
     --bc: #151515;
@@ -8,61 +9,72 @@
     --Montserrat: "Montserrat";
     --Prosto_One: "Prosto_One";
 }
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 
 }
+
 ul {
     list-style: none;
 }
+
 body {
     max-width: 1600px;
     width: 100%;
-    margin:auto;
+    margin: auto;
 }
-.header{
+
+.header {
     background-color: var(--ch);
     height: 65px;
 }
+
 .header-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 245px;
 }
+
 .list {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 30px;
 }
+
 .logo {
     margin-top: 6px;
     margin-bottom: 6px;
-    max-width:100px;
+    max-width: 100px;
     width: 100%;
     height: 53px;
     object-fit: cover;
 }
+
 .link {
     color: var(--cw);
     font-family: var(--Montserrat);
     font-size: 20px;
     font-weight: 700;
 }
+
 .header-speach {
     display: flex;
     align-items: center;
     column-gap: 25px;
     margin-right: 248px;
 }
+
 .speach {
-    max-width:20px ;
+    max-width: 20px;
     width: 100%;
     height: 20px;
     object-fit: cover;
@@ -76,22 +88,26 @@ body {
 
 
 
-.d-flx{
+.d-flx {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .hero {
     background-image: url(../img/hero.png);
     width: 100%;
-    height: 100%;
+    object-fit: cover;
+    height: 700px;
 }
-.hero-item{
+
+.hero-item {
     flex-direction: column;
     width: 100%;
     padding-top: 204px;
     padding-bottom: 274px;
 }
+
 .hero-text {
     font-family: var(--Prosto_One);
     font-size: 100px;
@@ -101,12 +117,21 @@ body {
     color: var(--cw);
 }
 
+.text1 {
+    color: var(--ch2);
+    font-family: var(--Montserrat);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
 .hero-link {
     width: 200px;
     height: 50px;
     border-radius: 10px;
     background-color: var(--cw);
 }
+
 .hero-link__title {
     color: var(--ch2);
     column-gap: 11px;
@@ -122,20 +147,25 @@ main {
     margin: auto;
     background-color: var(--bc);
 }
+
 .main-content__item {
     column-gap: 30px;
     margin-bottom: 50px;
 }
+
 .main-content__item:nth-child(1) {
     flex-direction: row-reverse;
 }
+
 .item-txt {
     max-width: 540px;
     width: 100%;
 }
+
 .txt {
     font-family: var(--Montserrat);
     font-size: 22px;
+    font-weight: 500;
     color: var(--cw);
 }
 
@@ -146,6 +176,7 @@ main {
 .main-text__item {
     margin-bottom: 80px;
 }
+
 .main-text {
     color: var(--cw);
     font-family: var(--Montserrat);
@@ -153,12 +184,13 @@ main {
     font-weight: 700;
     width: 333px;
 }
+
 .main-item {
-    margin-left: 16px;
+    margin-left: 14px;
     margin-right: 14px;
     width: 61px;
     height: 1px;
-    background-color:#C4C4C4;
+    background-color: #C4C4C4;
 }
 
 
@@ -172,6 +204,7 @@ main {
     column-gap: 20px;
 
 }
+
 .card {
     background-color: var(--cw);
     width: 255px;
@@ -181,12 +214,25 @@ main {
     border-radius: 5px;
     margin-bottom: 55px;
 }
+
 .title {
     font-family: var(--Montserrat);
+    color: var(--co);
+    font-size: 20px;
+    font-weight: 700;
     font-size: 20px;
     margin-top: 15px;
 }
-.card-list {  
+
+.p-txt {
+    color: var(--co);
+    font-family: var(--Montserrat);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.card-list {
     width: 160px;
     height: 35px;
     margin-top: 10px;
@@ -197,6 +243,7 @@ main {
 .card-link {
     font-family: var(--Montserrat);
     font-size: 16px;
+    font-weight: 700;
     color: var(--cw);
     text-transform: uppercase;
 }
@@ -205,21 +252,24 @@ main {
 
 footer {
     height: 215px;
+    padding: 0 245px;
     background-color: var(--ch);
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.footer-item{
-    margin: 0 245px;
+
+.footer-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.footer-list{
+
+.footer-list {
     display: flex;
     column-gap: 30px;
 }
+
 .visa {
     width: 70px;
     height: 55px;
